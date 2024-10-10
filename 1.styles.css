@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.header h1 {
+    color: black;
+    margin: 10px ;
+    font-size: 1.8rem;
+}
+
+.buttons {
+    margin-top: 20px;
+ background-color: white;
+
+}
+
+.login button{
+background-color:green;
+     
+
+}
+button{
+        border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 75%;
+    }
+
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
